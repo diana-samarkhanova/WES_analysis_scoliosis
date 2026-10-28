@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "example_only": "SYNTHETIC TEMPLATE. Replace paths, sizes and checksums before use.",
+  "raw_root": "/replace/with/private/raw-root",
+  "expected_samples": 1,
+  "expected_files": 2,
+  "files": [
+    {
+      "sample_id": "SYNTHETIC_DEMO_001",
+      "batch": "SYNTHETIC_BATCH",
+      "lane_label": "00",
+      "mate": "R1",
+      "path": "/replace/with/private/raw-root/SYNTHETIC_DEMO_001_L00_R1.fq.gz",
+      "size_bytes": 0,
+      "expected_md5": "00000000000000000000000000000000"
+    },
+    {
+      "sample_id": "SYNTHETIC_DEMO_001",
+      "batch": "SYNTHETIC_BATCH",
+      "lane_label": "00",
+      "mate": "R2",
+      "path": "/replace/with/private/raw-root/SYNTHETIC_DEMO_001_L00_R2.fq.gz",
+      "size_bytes": 0,
+      "expected_md5": "00000000000000000000000000000000"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+# QC only; no read trimming, alignment, or variant calling.
+# Pinned package versions; recipe references:
+# https://bioconda.github.io/recipes/fastqc/README.html
+# https://bioconda.github.io/recipes/multiqc/README.html
+# bootstrap.sh uses these dependencies with explicit channel URLs and strict priority.
+name: wes-raw-qc
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.12
+  - fastqc=0.12.1
+  - multiqc=1.35

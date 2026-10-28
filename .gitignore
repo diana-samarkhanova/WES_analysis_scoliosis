@@ -1,0 +1,13 @@
+# Code-only allowlist. Never add real manifests, logs, QC data or results.
+*
+!/.gitignore
+!/README.txt
+!/bootstrap.sh
+!/environment.yml
+!/launch_qc.py
+!/run_qc.py
+!/start_qc.sh
+!/tests/
+!/tests/test_qc_runner.py
+!/examples/
+!/examples/inputs.example.json
